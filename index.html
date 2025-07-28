@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harit Manani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("yEe4JMIwrAe-aq0s9"); // NEW PUBLIC KEY
+    })();
+  </script>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1 class="glow-text">Harit Manani</h1>
+    <p class="tagline">Diploma Student | Web Developer | Problem Solver</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      Motivated and detail-oriented Diploma student in ICT, passionate about real-world problem-solving and creative coding.
+    </p>
+
+    <h3>🎓 Education</h3>
+    <ul>
+      <li><strong>Diploma in Information and Communication Technology (ICT)</strong> – Ongoing, 2024 – Present</li>
+      <li><strong>Secondary School Certificate (SSC)</strong> – Completed, 2024<br>Saint Mary Higher Secondary School, Amreli</li>
+    </ul>
+
+    <h3>🛠 Technical Skills</h3>
+    <ul>
+      <li><strong>Programming Languages:</strong> Java, Python</li>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Tools & Platforms:</strong> Git, Visual Studio Code, Arduino IDE</li>
+    </ul>
+
+    <!-- Updated CV download link -->
+    <a href="https://ict5564.github.io/Web/" target="_blank" class="download-btn" data-aos="zoom-in">
+      📄 Download CV
+    </a>
+  </section>
+
+  <section id="projects">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-aos="flip-left">
+        <h3>📶 RFID Attendance</h3>
+        <p>Smart system using RFID + Arduino for class tracking.</p>
+      </div>
+      <div class="project-card" data-aos="flip-right">
+        <h3>🌐 Portfolio Website</h3>
+        <p>This animated site built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card" data-aos="flip-left">
+        <h3>💻 Circuit Design with CAD Tools</h3>
+        <p>Designed and simulated electronic circuits using CAD tools with focus on layout and documentation.</p>
+      </div>
+      <div class="project-card" data-aos="flip-right">
+        <h3>🧠 Simple Java Compiler</h3>
+        <p>Built a Java compiler prototype to understand syntax parsing and compiler design basics.</p>
+
+        <!-- Download APK for Simple Java Compiler -->
+        <a href="https://github.com/ict5564/Apk/raw/main/app-release.apk" class="download-btn" target="_blank">
+          📦 Download APK
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+
+    <form id="contact-form" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="user_name" required placeholder="Your Name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="user_email" required placeholder="you@example.com" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+
+      <button type="submit" class="download-btn">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap" target="_blank">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a href="https://www.instagram.com/harit_manani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+    </div>
+  </section>
+
+  <footer data-aos="zoom-in">
+    <p>💚 Thank you for visiting! 💚<br/>© 2025 Harit Manani</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1200 });</script>
+</body>
+</html>
